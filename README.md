@@ -1,3 +1,67 @@
+# 🧾 Invoice Generator Web Application
+
+A full-stack web application to generate professional invoices with customizable templates. Users can register, log in, design invoices, preview them in real-time, and download as PDF.
+
+## 🚀 Features
+
+- 🔐 User Authentication with Clerk and JWT (Role-based access)
+- 📄 Multiple Invoice Templates with Real-Time Preview
+- 🧰 CRUD Operations for Invoices via REST APIs
+- 📥 Download Invoices as PDF
+- ✉️ Email Invoices with Webhook Handling
+- ☁️ Cloudinary Integration for Template Rendering
+- ⚛️ Modern React Frontend with Context API for State Management
+
+## 🛠 Tech Stack
+
+### Frontend
+- ReactJS + Vite
+- Context API for global state
+- Tailwind CSS, Material UI, ShadCN for UI
+- Cloudinary for media and dynamic template rendering
+
+### Backend
+- Java Spring Boot
+- Clerk Authentication
+- JWT Security
+- MongoDB (via Spring Data)
+- REST API (CRUD, Emailing, Webhooks)
+
+## 📦 Installation
+
+### Backend (Spring Boot)
+
+```bash
+cd backend
+./mvnw spring-boot:run
+```
+
+### FRONTEND (React)
+```bash
+  cd frontend
+  npm install
+  npm run dev
+```
+
+###Folder Structure
+```bash
+  Invoice-Generator-App/
+  │
+  ├── backend/
+  │   └── src/
+  │       └── main/java/com/invoice/...
+  ├── frontend/
+  │   └── src/
+  │       ├── components/
+  │       ├── pages/
+  │       └── context/
+  └── README.md
+```
+
+
+Below are the attched images of my project output :
+
+
 Image 1 : 
 <img width="1920" height="1029" alt="1" src="https://github.com/user-attachments/assets/fbe2d840-43a7-4775-a09f-04f0b8f3e4b9" />
 
